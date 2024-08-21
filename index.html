@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Здравохранение Липецкой области</title>
+    <link rel="shortcut icon" href="./icons/logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-logo">
+                <a href="/" class="header__container-image">
+                    <img src="./icons/logo.png" class="logo" alt="Логотип сайта" />
+                </a>
+                <span class="header__container-title none-phone">Здравохранение Липецкой области</span>
+            </div>
+
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li><a href="#" class="none">Специалистам</a></li>
+                    <li><a href="#" class="none">Информация</a></li>
+                    <li><a href="#" class="none">Медицинские организации</a></li>
+                    <li><a href="#" class="none">Обращения</a></li>
+                    <li><a href="#" class="none">Контакты</a></li>
+                </ul>
+
+                
+                <div class="header__search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21L17.5001 17.5M20 11.5C20 16.1944 16.1944 20 11.5 20C6.80558 20 3 16.1944 3 11.5C3 6.80558 6.80558 3 11.5 3C16.1944 3 20 6.80558 20 11.5Z" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="header__burger-menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 8.5H21M3 15.5H21" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation__container">
+            <nav class="breadcrumb">
+                <svg class="header__arrow none-phone" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 12H4M4 12L10 18M4 12L10 6" stroke="#667085" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <a href="#">Главная</a> / <a class="header__news" href="#">Новости и статьи</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__title">
+                <h1>Новости и статьи</h1>
+                <div class="tabs">
+                    <button class="tab-button active">Новости</button>
+                    <button class="tab-button">Статьи</button>
+                </div>
+            </div>
+            <div class="articles">
+                <article>
+                    <img src="./icons/image1.png" alt="Новость 1">
+                    <p>Всероссийский стратегический форум «Создаем будущее вместе» прошел...</p>
+                </article>
+                <article>
+                    <img src="./icons/image2.png" alt="Новость 2">
+                    <p>Липчане приняли участие в массовой семейной зарядке</p>
+                </article>
+                <article>
+                    <img src="./icons/image3.png" alt="Новость 3">
+                    <p>В парке Победы города Липецка состоялся Праздник Здоровья</p>
+                </article>
+            </div>
+
+            <div class="articles none-phone">
+                <article>
+                    <img src="./icons/image1.png" alt="Новость 1">
+                    <p>Всероссийский стратегический форум «Создаем будущее вместе» прошел...</p>
+                </article>
+                <article>
+                    <img src="./icons/image2.png" alt="Новость 2">
+                    <p>Липчане приняли участие в массовой семейной зарядке</p>
+                </article>
+                <article>
+                    <img src="./icons/image3.png" alt="Новость 3">
+                    <p>В парке Победы города Липецка состоялся Праздник Здоровья</p>
+                </article>
+            </div>
+
+            <div class="articles none-phone">
+                <article>
+                    <img src="./icons/image1.png" alt="Новость 1">
+                    <p>Всероссийский стратегический форум «Создаем будущее вместе» прошел...</p>
+                </article>
+                <article>
+                    <img src="./icons/image2.png" alt="Новость 2">
+                    <p>Липчане приняли участие в массовой семейной зарядке</p>
+                </article>
+                <article>
+                    <img src="./icons/image3.png" alt="Новость 3">
+                    <p>В парке Победы города Липецка состоялся Праздник Здоровья</p>
+                </article>
+            </div>
+
+            <button class="main__button">Читать далее</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© Управление здравохранения Липецкой области, 2000-2024</p>
+        <div class="footer__container">
+            <a href="#" class="none-phone">Войти в систему</a>
+            <a href="#">Карта сайта</a>
+        </div>
+    </footer>
+</body>
+</html>
